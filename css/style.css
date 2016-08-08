@@ -1,0 +1,102 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font: normal 100% Arial;
+	height: 100%;
+}
+#wrapper {
+	posotion: relative;
+	margin: 0 auto;
+	height: 100vh;
+	max-width: 61.75em; /* 988px / 16px */
+}
+.item {
+	width : 28%; /* 285px / 988px */
+	margin: 0.8%;
+	border: 1px solid silver;
+	padding: 1.6%;
+	float: left;
+}
+.item .magnify {
+	width: 1.5%;
+    position: absolute;
+}
+.item .productPic {
+	display: block;
+	width: 80%;	/* 230px / 285px */
+	margin: 0 auto;
+}
+.item .title {
+	font-size: 0.95em;
+}
+.item .new {
+	color: #ff9b07;
+}
+.item .modelNumber, .item .price,
+.item .review, .item .originalPriceWrapper,
+.item .sizeSelectionWrapper {
+	color: #9ea6ae;
+	line-height: 2em;
+	font-size: 0.9em;
+}
+.item .modelNumber {
+	margin-top: 1em;
+}
+.item .priceWrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.item .price {
+	width: 50%;
+	float: left;
+	color: #666666;
+}
+.item .review {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.item .reviewText {
+	color: #20a2ff;
+	font-size: 0.8em;
+}
+.item .originalPriceWrapper {
+	width: 100%;
+	line-height: 1em;
+}
+.item .priceRed {
+	color: #ff0000;
+	text-decoration: line-through;
+}
+.item .sizeSelectionWrapper {
+	width: 100%;
+}
+.item .sizeSelection {
+	line-height: 4em;
+}
+.item .sizeSelection::after { 
+    content: "\00a0";
+}
+.item .showBox {
+	border: 2px solid #20a2ff;
+	padding: 2.5%;
+}
+
+.item .button {
+    background-color: #00B140;
+    color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 2px solid transparent;
+    line-height: 2.5em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}

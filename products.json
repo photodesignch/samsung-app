@@ -1,0 +1,86 @@
+[{
+	"model_number": "UN65KS9500FXZA",
+	"title": "NEW - 65” Class KS9500 9-Series Curved 4K SUHD TV (2016 Model)",
+	"price": {
+		"amount": "3699.99",
+		"currency": "USD"
+	},
+	"highlight": "Original: $4,699.99/ You Save $1,000",
+	"category": "TV",
+	"size": "65\"",
+	"available_sizes": ["65\"", "55\""],
+	"image": "KS9500.png",
+	"base_model": "KS9500",
+	"review": {
+		"count": 15,
+		"score": 4.5
+	}
+}, {
+	"model_number": "UN55KS9500FXZA",
+	"title": "NEW - 55” Class KS9500 9-Series Curved 4K SUHD TV (2016 Model)",
+	"price": {
+		"amount": "2499.99",
+		"currency": "USD"
+	},
+	"highlight": "Original: $3,199.99/ You Save $700",
+	"category": "TV",
+	"size": "55\"",
+	"available_sizes": ["65\"", "55\""],
+	"image": "KS9500.png",
+	"base_model": "KS9500",
+	"review": {
+		"count": 15,
+		"score": 4.5
+	}
+}, {
+	"model_number": "UN32J5205AFXZA",
+	"title": "LED J5205 Series Smart TV - 32\" Class (31.5\" Diag.)",
+	"price": {
+		"amount": "279.99",
+		"currency": "USD"
+	},
+	"highlight": "Original: $499.99/ You Save $220",
+	"category": "TV",
+	"size": "32\"",
+	"available_sizes": ["32\""],
+	"image": "J5205.png",
+	"base_model": "J5205",
+	"review": {
+		"count": 386,
+		"score": 4.5
+	}
+}, {
+	"model_number": "UN65KS9000FXZA",
+	"title": "NEW - 65” Class KS9000 9-Series 4K SUHD TV (2016 Model)",
+	"price": {
+		"amount": "3499.99",
+		"currency": "USD"
+	},
+	"highlight": "Original: $4,499.99/ You Save $1,000",
+	"category": "TV",
+	"size": "65\"",
+	"available_sizes": ["65\"", "55\""],
+	"image": "KS9000.jpg",
+	"base_model": "KS9000",
+	"review": {
+		"count": 3,
+		"score": 4.5
+	}
+}, {
+	"model_number": "UN55KS9000FXZA",
+	"title": "NEW - 55” Class KS9000 9-Series 4K SUHD TV (2016 Model)",
+	"price": {
+		"amount": "2,299.99",
+		"currency": "USD"
+	},
+	"highlight": "Original: $2,799.99/ You Save $500",
+	"category": "TV",
+	"size": "55\"",
+	"available_sizes": ["65\"", "55\""],
+	"image": "KS9000.jpg",
+	"base_model": "KS9000",
+	"review": {
+		"count": 3,
+		"score": 4.5
+	}
+}]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="samsungCart">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script type="text/javascript" src="js/cartController.js"></script>
+    <title>Cart Demo</title>
+</head>
+<body ng-view ng-controller="MainController">
+    <header>
+    </header>
+
+    <article id="view" class="inventoryView">
+        <span>Tv sizes filter : </span>
+        <span ng-repeat="(sizeListItem, checkBox) in tvSizesLookup">
+            <input type="checkbox" ng-model="tvSizesLookup[sizeListItem]" ng-checked="{{checkBox}}" search-products-directive>
+            <label>{{sizeListItem}}</label>
+        </span>
+        <div id="wrapper">
+            <div class="item" ng-repeat="item in productDetails">
+                <img class="magnify" src="imgs/magnify.jpg">
+                <img class="productPic" src="imgs/{{item.image}}">
+                <new-text title="{{item.title}}"></new-text>
+                <div class="modelNumber">{{item.model_number}}</div>
+                <div class="priceWrapper">
+                    <div class="price">{{item.price.amount | currency}}</div>
+                    <div class="review">
+                        <star-rating scores="{{item.review.score}}"></star-rating>
+                        <span class="reviewText">&nbsp;({{item.review.count}})</span>
+                    </div>
+                </div>
+                <div class="originalPriceWrapper">
+                    <original-price highlight="{{item.highlight}}"></original-price>
+                </div>
+                <div class="sizeSelectionWrapper">
+                    <available-size sizes="{{item.available_sizes}}" selecteds="{{item.size}}">{{item.size}}</available-size>
+                </div>
+                <div class="button">add to cart</div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+    </footer>
+</body>
+</html>
